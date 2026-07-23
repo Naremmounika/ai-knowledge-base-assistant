@@ -1,0 +1,29 @@
+POST http://localhost:5000/api/auth/signup
+Content-Type: application/json
+
+{
+  "name": "narem",
+  "email": "narem@gmail.com",
+  "password": "12345678"
+}
+
+###
+POST http://localhost:5000/api/auth/login 
+Content-Type: application/json 
+
+{
+    "email":"narem@gmail.com",
+    "password":"12345678"
+}
+###
+GET http://localhost:5000/api/auth/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNWY2MGM4OWJlNjIwMWNjMTQ4OWE1ZCIsImlhdCI6MTc4NDYzNjAyOSwiZXhwIjoxNzg1MjQwODI5fQ.DjVd8GV_T5QUlBKhwFLhGxcn4OS4U6MjgFtMnKvLW5Y
+###
+POST http://localhost:5000/api/documents/upload
+Content-Type: multipart/form-data; boundary=MyBoundary
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjZhNWY2MGM4OWJlNjIwMWNjMTQ4OWE1ZCIsImlhdCI6MTc4NDYzNjAyOSwiZXhwIjoxNzg1MjQwODI5fQ.DjVd8GV_T5QUlBKhwFLhGxcn4OS4U6MjgFtMnKvLW5Y
+
+{
+  "title": "Sample Document",
+  "content": "This is a sample document content."
+}

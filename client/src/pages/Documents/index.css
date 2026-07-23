@@ -1,0 +1,14 @@
+.documents-layout{
+    display:flex;
+    min-height:calc(100vh - 70px);
+}
+
+.documents-content{
+    flex:1;
+    padding:30px;
+    background:#f5f7fb;
+}
+
+.documents-content h1{
+    margin-bottom:25px;
+}

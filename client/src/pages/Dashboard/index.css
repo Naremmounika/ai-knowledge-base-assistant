@@ -1,0 +1,34 @@
+.dashboard{
+
+padding:30px;
+
+}
+
+
+.dashboard-grid{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:30px;
+
+}
+
+
+
+.select-message{
+
+height:300px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+border:1px dashed #aaa;
+
+border-radius:10px;
+
+}

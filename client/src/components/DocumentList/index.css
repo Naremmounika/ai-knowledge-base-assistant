@@ -1,0 +1,15 @@
+.document-card{
+
+border:1px solid #ddd;
+padding:15px;
+margin:10px 0;
+border-radius:8px;
+
+}
+
+
+.document-card button{
+
+margin-right:10px;
+
+}
