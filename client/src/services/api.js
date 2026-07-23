@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://ai-knowledge-base-assistant-4e42.onrender.com",
+  baseURL: "https://ai-knowledge-base-assistant-4e42.onrender.com/api",
 });
 
 api.interceptors.request.use(
